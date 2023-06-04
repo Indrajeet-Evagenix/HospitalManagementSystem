@@ -1,0 +1,18 @@
+.carousel-item:after {
+	content: "";
+	display: block;
+	positiob: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.1)
+}
+
+.carousel-caption {
+	top: 70%;
+}
+
+.paint-card {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
